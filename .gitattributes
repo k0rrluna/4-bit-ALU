@@ -1,2 +1,3 @@
 *.v linguist-language=Verilog
 *.txt linguist-vendored
+*.fs linguits-language=Verilog
