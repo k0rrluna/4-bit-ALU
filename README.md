@@ -13,6 +13,7 @@
 - The BCD module employs a double dabble algorithm, but the 3rd and 4th bits in the 100s position are not enabled. As a result, the integer "400" cannot be displayed on the 7-segment display.
 - The opcode uses a 3-bit decoder with **one-hot encoding** for selection.
 - CarryOut/BorrowOut and Overflow are displayed using LEDs.
+- **The 1's are displayed on the double 7-segment display. Yes, we encountered a component issue.**
 
 ![Circuit Image1](media/preview1.jpg)
 ![Circuit Image2](media/preview2.jpg)
@@ -151,7 +152,6 @@ The table below describes the operations performed by the ALU based on the 3-bit
 # Important NOTE!
 
 ## You are free to use this repository as you wish, **but please note that I am not actively maintaining it.** This repository was created for a specific project, and I would like to preserve the original code.
-<br>
 
 ## Credit
 
