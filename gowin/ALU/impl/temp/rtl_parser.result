@@ -1,0 +1,702 @@
+[
+ {
+  "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/top.v",
+    "InstLine" : 13,
+    "InstName" : "a1",
+    "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/ALU.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ALU",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/ALU.v",
+      "InstLine" : 18,
+      "InstName" : "opCd",
+      "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/opCode.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "opCode"
+     },
+     {
+      "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/ALU.v",
+      "InstLine" : 20,
+      "InstName" : "aU",
+      "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/arithmeticUnit.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "arithmeticUnit",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/arithmeticUnit.v",
+        "InstLine" : 13,
+        "InstName" : "a1",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "addition",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 11,
+          "InstName" : "f0",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 12,
+          "InstName" : "f1",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 13,
+          "InstName" : "f2",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 14,
+          "InstName" : "f3",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/arithmeticUnit.v",
+        "InstLine" : 14,
+        "InstName" : "s1",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/subtraction.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "subtraction",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/subtraction.v",
+          "InstLine" : 11,
+          "InstName" : "f0",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fullsubtraction",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 8,
+            "InstName" : "hf1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 9,
+            "InstName" : "hf2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/subtraction.v",
+          "InstLine" : 12,
+          "InstName" : "f1",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fullsubtraction",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 8,
+            "InstName" : "hf1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 9,
+            "InstName" : "hf2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/subtraction.v",
+          "InstLine" : 13,
+          "InstName" : "f2",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fullsubtraction",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 8,
+            "InstName" : "hf1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 9,
+            "InstName" : "hf2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/subtraction.v",
+          "InstLine" : 14,
+          "InstName" : "f3",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fullsubtraction",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 8,
+            "InstName" : "hf1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fullsubtraction.v",
+            "InstLine" : 9,
+            "InstName" : "hf2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfsubtraction.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfsubtraction"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/ALU.v",
+      "InstLine" : 21,
+      "InstName" : "lU",
+      "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/logicUnit.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "logicUnit"
+     },
+     {
+      "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/ALU.v",
+      "InstLine" : 22,
+      "InstName" : "mU",
+      "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/multiplier.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "multiplier",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/multiplier.v",
+        "InstLine" : 26,
+        "InstName" : "add0",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "addition",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 11,
+          "InstName" : "f0",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 12,
+          "InstName" : "f1",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 13,
+          "InstName" : "f2",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 14,
+          "InstName" : "f3",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/multiplier.v",
+        "InstLine" : 42,
+        "InstName" : "add1",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "addition",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 11,
+          "InstName" : "f0",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 12,
+          "InstName" : "f1",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 13,
+          "InstName" : "f2",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 14,
+          "InstName" : "f3",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/multiplier.v",
+        "InstLine" : 58,
+        "InstName" : "add2",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "addition",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 11,
+          "InstName" : "f0",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 12,
+          "InstName" : "f1",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 13,
+          "InstName" : "f2",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/addition.v",
+          "InstLine" : 14,
+          "InstName" : "f3",
+          "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "fulladder",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 8,
+            "InstName" : "h1",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           },
+           {
+            "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/fulladder.v",
+            "InstLine" : 9,
+            "InstName" : "h2",
+            "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/halfadder.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "halfadder"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/ALU.v",
+      "InstLine" : 76,
+      "InstName" : "btod1",
+      "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "BinaryToBCD",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+        "InstLine" : 14,
+        "InstName" : "d1t",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/dabble.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "dabble"
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+        "InstLine" : 23,
+        "InstName" : "d2u",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/dabble.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "dabble"
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+        "InstLine" : 32,
+        "InstName" : "d3v",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/dabble.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "dabble"
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+        "InstLine" : 41,
+        "InstName" : "d4w",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/dabble.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "dabble"
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+        "InstLine" : 50,
+        "InstName" : "d5x",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/dabble.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "dabble"
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+        "InstLine" : 59,
+        "InstName" : "d6y",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/dabble.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "dabble"
+       },
+       {
+        "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/BinaryToBCD.v",
+        "InstLine" : 68,
+        "InstName" : "d7z",
+        "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/dabble.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "dabble"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/koray/Documents/gowin/ALU/src/top.v",
+    "InstLine" : 14,
+    "InstName" : "s1",
+    "ModuleFile" : "C:/Users/koray/Documents/gowin/ALU/src/selector.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "selector"
+   }
+  ]
+ }
+]

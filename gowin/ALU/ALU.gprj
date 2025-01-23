@@ -1,0 +1,25 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18" pn="GW2A-LV18PG256C8/I7">gw2a18-002</Device>
+    <FileList>
+        <File path="src/ALU.v" type="file.verilog" enable="1"/>
+        <File path="src/BinaryToBCD.v" type="file.verilog" enable="1"/>
+        <File path="src/addition.v" type="file.verilog" enable="1"/>
+        <File path="src/arithmeticUnit.v" type="file.verilog" enable="1"/>
+        <File path="src/dabble.v" type="file.verilog" enable="1"/>
+        <File path="src/fulladder.v" type="file.verilog" enable="1"/>
+        <File path="src/fullsubtraction.v" type="file.verilog" enable="1"/>
+        <File path="src/halfadder.v" type="file.verilog" enable="1"/>
+        <File path="src/halfsubtraction.v" type="file.verilog" enable="1"/>
+        <File path="src/logicUnit.v" type="file.verilog" enable="1"/>
+        <File path="src/multiplier.v" type="file.verilog" enable="1"/>
+        <File path="src/opCode.v" type="file.verilog" enable="1"/>
+        <File path="src/selector.v" type="file.verilog" enable="1"/>
+        <File path="src/subtraction.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/top.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

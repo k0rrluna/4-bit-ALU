@@ -1,0 +1,130 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\addition.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\ALU.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\arithmeticUnit.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\dabble.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\fulladder.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\halfadder.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\halfsubtraction.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\logicUnit.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\multiplier.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\opCode.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\selector.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\subtraction.v'
+Analyzing Verilog file 'C:\Users\koray\Documents\gowin\ALU\src\top.v'
+Compiling module 'top'("C:\Users\koray\Documents\gowin\ALU\src\top.v":1)
+Compiling module 'ALU'("C:\Users\koray\Documents\gowin\ALU\src\ALU.v":1)
+Compiling module 'opCode'("C:\Users\koray\Documents\gowin\ALU\src\opCode.v":1)
+Compiling module 'arithmeticUnit'("C:\Users\koray\Documents\gowin\ALU\src\arithmeticUnit.v":1)
+Compiling module 'addition'("C:\Users\koray\Documents\gowin\ALU\src\addition.v":1)
+Compiling module 'fulladder'("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":1)
+Compiling module 'halfadder'("C:\Users\koray\Documents\gowin\ALU\src\halfadder.v":1)
+Compiling module 'subtraction'("C:\Users\koray\Documents\gowin\ALU\src\subtraction.v":1)
+Compiling module 'fullsubtraction'("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":1)
+Compiling module 'halfsubtraction'("C:\Users\koray\Documents\gowin\ALU\src\halfsubtraction.v":1)
+Compiling module 'logicUnit'("C:\Users\koray\Documents\gowin\ALU\src\logicUnit.v":1)
+Compiling module 'multiplier'("C:\Users\koray\Documents\gowin\ALU\src\multiplier.v":1)
+Compiling module 'BinaryToBCD'("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":1)
+Compiling module 'dabble'("C:\Users\koray\Documents\gowin\ALU\src\dabble.v":1)
+Compiling module 'selector'("C:\Users\koray\Documents\gowin\ALU\src\selector.v":1)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "ALU" instantiated to "a1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\top.v":13)
+WARN  (NL0002) : The module "arithmeticUnit" instantiated to "aU" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\ALU.v":20)
+WARN  (NL0002) : The module "addition" instantiated to "a1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\arithmeticUnit.v":13)
+WARN  (NL0002) : The module "fulladder" instantiated to "f0" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":11)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":12)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":13)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f3" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":14)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "subtraction" instantiated to "s1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\arithmeticUnit.v":14)
+WARN  (NL0002) : The module "fullsubtraction" instantiated to "f0" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\subtraction.v":11)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":8)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":9)
+WARN  (NL0002) : The module "fullsubtraction" instantiated to "f1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\subtraction.v":12)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":8)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":9)
+WARN  (NL0002) : The module "fullsubtraction" instantiated to "f2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\subtraction.v":13)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":8)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":9)
+WARN  (NL0002) : The module "fullsubtraction" instantiated to "f3" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\subtraction.v":14)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":8)
+WARN  (NL0002) : The module "halfsubtraction" instantiated to "hf2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fullsubtraction.v":9)
+WARN  (NL0002) : The module "BinaryToBCD" instantiated to "btod1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\ALU.v":76)
+WARN  (NL0002) : The module "dabble" instantiated to "d1t" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":21)
+WARN  (NL0002) : The module "dabble" instantiated to "d2u" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":30)
+WARN  (NL0002) : The module "dabble" instantiated to "d3v" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":39)
+WARN  (NL0002) : The module "dabble" instantiated to "d4w" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":48)
+WARN  (NL0002) : The module "dabble" instantiated to "d5x" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":57)
+WARN  (NL0002) : The module "dabble" instantiated to "d6y" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":66)
+WARN  (NL0002) : The module "dabble" instantiated to "d7z" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\BinaryToBCD.v":75)
+WARN  (NL0002) : The module "logicUnit" instantiated to "lU" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\ALU.v":21)
+WARN  (NL0002) : The module "multiplier" instantiated to "mU" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\ALU.v":22)
+WARN  (NL0002) : The module "addition" instantiated to "add0" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\multiplier.v":33)
+WARN  (NL0002) : The module "fulladder" instantiated to "f0" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":11)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":12)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":13)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f3" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":14)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "addition" instantiated to "add1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\multiplier.v":49)
+WARN  (NL0002) : The module "fulladder" instantiated to "f0" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":11)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":12)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":13)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f3" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":14)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "addition" instantiated to "add2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\multiplier.v":65)
+WARN  (NL0002) : The module "fulladder" instantiated to "f0" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":11)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":12)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":13)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "fulladder" instantiated to "f3" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\addition.v":14)
+WARN  (NL0002) : The module "halfadder" instantiated to "h1" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":8)
+WARN  (NL0002) : The module "halfadder" instantiated to "h2" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\fulladder.v":9)
+WARN  (NL0002) : The module "opCode" instantiated to "opCd" is swept in optimizing("C:\Users\koray\Documents\gowin\ALU\src\ALU.v":18)
+[95%] Generate netlist file "C:\Users\koray\Documents\gowin\ALU\impl\gwsynthesis\ALU.vg" completed
+[100%] Generate report file "C:\Users\koray\Documents\gowin\ALU\impl\gwsynthesis\ALU_syn.rpt.html" completed
+GowinSynthesis finish

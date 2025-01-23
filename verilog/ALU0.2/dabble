@@ -1,0 +1,52 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x5621d16e7df0 .scope module, "dabble" "dabble" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "C";
+    .port_info 3 /INPUT 1 "D";
+    .port_info 4 /OUTPUT 1 "X";
+    .port_info 5 /OUTPUT 1 "Y";
+    .port_info 6 /OUTPUT 1 "Z";
+    .port_info 7 /OUTPUT 1 "E";
+o0x7f27d282c018 .functor BUFZ 1, C4<z>; HiZ drive
+o0x7f27d282c0a8 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x5621d1732e70 .functor XOR 1, o0x7f27d282c018, o0x7f27d282c0a8, C4<0>, C4<0>;
+o0x7f27d282c048 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x5621d1732f60 .functor NOR 1, o0x7f27d282c018, o0x7f27d282c048, C4<0>, C4<0>;
+o0x7f27d282c078 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x5621d1733000 .functor XOR 1, o0x7f27d282c018, o0x7f27d282c078, C4<0>, C4<0>;
+L_0x5621d17330d0 .functor NOR 1, L_0x5621d1732e70, L_0x5621d1733000, C4<0>, C4<0>;
+L_0x5621d1733240 .functor NOR 1, L_0x5621d17330d0, L_0x5621d1732f60, C4<0>, C4<0>;
+L_0x5621d1733350 .functor BUF 1, L_0x5621d1733240, C4<0>, C4<0>, C4<0>;
+L_0x5621d1733450 .functor OR 1, L_0x5621d1732e70, L_0x5621d1732f60, C4<0>, C4<0>;
+L_0x5621d17334c0 .functor NOR 1, L_0x5621d1733450, o0x7f27d282c078, C4<0>, C4<0>;
+L_0x5621d1733620 .functor AND 1, L_0x5621d1733450, L_0x5621d1733000, C4<1>, C4<1>;
+L_0x5621d1733690 .functor XOR 1, L_0x5621d1733240, o0x7f27d282c0a8, C4<0>, C4<0>;
+v0x5621d16e8050_0 .net "A", 0 0, o0x7f27d282c018;  0 drivers
+v0x5621d1732380_0 .net "B", 0 0, o0x7f27d282c048;  0 drivers
+v0x5621d1732440_0 .net "C", 0 0, o0x7f27d282c078;  0 drivers
+v0x5621d17324e0_0 .net "D", 0 0, o0x7f27d282c0a8;  0 drivers
+v0x5621d17325a0_0 .net "E", 0 0, L_0x5621d1733690;  1 drivers
+v0x5621d17326b0_0 .net "X", 0 0, L_0x5621d1733350;  1 drivers
+v0x5621d1732770_0 .net "Y", 0 0, L_0x5621d17334c0;  1 drivers
+v0x5621d1732830_0 .net "Z", 0 0, L_0x5621d1733620;  1 drivers
+v0x5621d17328f0_0 .net "nor1", 0 0, L_0x5621d1732f60;  1 drivers
+v0x5621d17329b0_0 .net "nor2", 0 0, L_0x5621d17330d0;  1 drivers
+v0x5621d1732a70_0 .net "nor3", 0 0, L_0x5621d1733240;  1 drivers
+v0x5621d1732b30_0 .net "or1", 0 0, L_0x5621d1733450;  1 drivers
+v0x5621d1732bf0_0 .net "xor1", 0 0, L_0x5621d1732e70;  1 drivers
+v0x5621d1732cb0_0 .net "xor2", 0 0, L_0x5621d1733000;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "dabble.v";
